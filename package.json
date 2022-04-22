@@ -1,0 +1,12 @@
+{
+  "name": "paginasimple1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./dev/scss/main.scss ./public/css/main.css"
+  },
+  "author": "Alex O <Alex@Correo.com>",
+  "license": "MIT"
+}
