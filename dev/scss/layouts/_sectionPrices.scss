@@ -1,0 +1,70 @@
+.prices{
+    --colorText: #696871;
+    --colorTitleP: #1D293F;
+    --btnBG: #fff;
+    --btntext: #5454D4;
+    --scale:scale(1);
+
+
+    &__card--orange{
+        --colorBG1:#FF7143;
+        --colorText: #fff;
+        --colorTitleP: #fff;
+        --btnBG: #9F3919;
+        --btntext: #fff;
+        --scale:scale(1.1);
+    }
+
+
+    &__container{
+        padding: var(--paddingContainer);
+
+    }
+    &__title{
+        text-align: center;
+        color: var(--colorSecundario);
+        font-size: var(--fontsizeTitle);
+        margin-bottom: 100px;
+    }
+    &__cards{
+        // border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card{
+        width: 340px;
+        height: 420px;
+        background: var(--colorBG1);
+        border-radius: 10px;
+        text-align: center;
+        transform: var(--scale)
+    }
+    &__course{
+        margin: 20px 0;
+        color: #696871;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    &__price{
+        font-size: 40px;
+        font-weight: bold;
+        color: var(--colorTitleP);
+    }
+    &__items p{
+        color: var(--colorText);
+        margin-top: 15px;
+        font-size: 1.2rem;
+    }
+    &__button{
+        margin-top: 50px;
+        border: none;
+        background-color: var(--btnBG);
+        padding: 20px 70px;
+        border-radius: 15px;
+        font-size: 1rem;
+        color: var(--btntext);
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+}

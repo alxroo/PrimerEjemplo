@@ -1,0 +1,61 @@
+.footer{
+
+    &__container{
+        background-color: #1D293F;
+        padding: 100px 80px 10px 80px;
+    }
+    &__columns{
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+    }
+    &__title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    &__menu{
+
+        a{
+            text-decoration: none;
+            color: #fff;
+            margin-right: 30px;
+        }
+    }
+    &__subs{
+        input{
+            width: 230px;
+            height: 45px;
+            border-radius: 10px;
+            border: none;
+            margin-right: 20px;
+        }
+        input::placeholder{
+            padding: 0 10px;
+        }
+    }
+
+    &__sub{
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px;  
+    }
+
+    &__div{
+        margin-top: 50px;
+    }
+    &__copy{
+        margin-top: 25px;
+        text-align: center;
+    }
+    &__redes{
+
+        img{
+            width: 35px;
+            margin: 0 2px;
+        }
+    }
+    &__cop{
+        color: #fff;
+        font-size: 20px;
+    }
+}

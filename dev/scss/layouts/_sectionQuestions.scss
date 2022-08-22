@@ -1,0 +1,61 @@
+.questions{
+    // background-color: red;
+
+    &__container{
+        padding: var(--paddingContainer);
+    }
+    &__title{
+        text-align: center;
+        color: var(--colorSecundario);
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    &__paragraph{
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    &__answer{
+        border: 1px solid #5454D4;
+        padding: 30px;
+        border-radius: 10px;
+        position: relative;
+        margin-bottom: 20px;
+
+        .answer__title{
+            color: var(--colorSecundario);
+            // margin-bottom: 30px;
+        }
+        .answer__paragraph{
+            display: none;
+        }
+        .answer__arrow{
+            background-color: var(--colorSecundario);
+            border-radius: 50%;
+            width: 25px;
+            position: absolute;
+            top: 30px;
+            right: 20px;
+            cursor: pointer;
+            transform: rotate(180deg);
+        }  
+    }
+}
+
+.final{
+
+    &__container{
+        padding: var(--paddingContainer);
+    }
+    &__title{
+        text-align: center;
+        color: var(--colorSecundario);
+        margin-bottom: 30px;
+    }
+    &__paragraph{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    &__button{
+       text-align: center;
+    }
+}

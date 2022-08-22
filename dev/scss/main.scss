@@ -1,5 +1,11 @@
-<<<<<<< HEAD
-@use "../../dev/scss/layouts/header"
-=======
-@use "../../dev/scss/blocks/sectionContent"
->>>>>>> sectionContent
+@use "../../dev/scss/base/base";
+@use "../../dev/scss/config/fuentes";
+@use "../../dev/scss/config/variables";
+@use "../../dev/scss/blocks/botonCta";
+@use "../../dev/scss/layouts/header";
+@use "../../dev/scss/layouts/sectionContent";
+@use "../../dev/scss/layouts/sectionCta";
+@use "../../dev/scss/layouts/sectionPrices";
+@use "../../dev/scss/layouts/sectionTestimonys";
+@use "../../dev/scss/layouts/sectionQuestions";
+@use "../../dev/scss/layouts/footer";

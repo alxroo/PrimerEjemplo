@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
+@use "../config/variables";
 .content{
     padding: 80px;
     // border: red 1px solid;
@@ -24,7 +18,7 @@
 
         h2{
             font-size: 32px;
-            color: #001A49;
+            color: var(--colorSecundario);
         }
 
         p{
@@ -49,7 +43,7 @@
             }
             &__title{
                 font-size: 18px;
-                color: #001A49;
+                color: var(--colorSecundario);
                 margin: 10px 0;
             }
             &__paragraph{

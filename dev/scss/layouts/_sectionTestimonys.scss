@@ -1,0 +1,64 @@
+.testimonys{
+    padding: var(--paddingContainer);
+    background: var(--colorBG1);
+
+    &__container{
+        display: flex;
+    }
+    &__watch{
+        display: none;
+    }
+    &__box{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: center;
+        // border: green solid 2px;
+    }
+    &__arrow{
+        width: 120px;
+        display: flex;
+        padding: 0 20px;
+        cursor: pointer;
+
+    }
+    &__text{
+        max-width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        // border: solid 1px red;
+
+    }
+    &__name{
+        font-size: 30px;
+        color: #001A49;
+
+        span{
+            background-color: royalblue;
+            color: #fff;
+            display: inline-block;
+        }
+    }
+
+    &__picture{
+        min-width: 250px;
+        width: 35%;
+        text-align: right;
+        // border: solid blue 1px;
+
+        img{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            
+        }
+    }
+}
+
+.active{
+    display: block;
+}

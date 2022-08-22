@@ -1,0 +1,26 @@
+.CTA{
+    background: var(--colorBG1);
+    
+    &__container{
+        padding: var(--paddingContainer);
+        display: flex;
+    }
+
+    &__text{
+        width: 60%;
+    }
+    &__title{
+        color: var(--colorSecundario);
+        font-size: 35px;
+    }
+    &__paragraph{
+        margin: 25px 0;
+    }
+}
+
+.CTA__img{
+    img{
+        width: 500px;
+    }
+    
+}

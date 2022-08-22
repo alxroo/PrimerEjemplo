@@ -1,0 +1,8 @@
+@use "../config/variables";
+.cta{
+    text-decoration: none;
+    background-color: var(--colorPrincipal);
+    color: var(--colorbase1);
+    padding: 10px 30px;
+    border-radius: 30px;
+}
