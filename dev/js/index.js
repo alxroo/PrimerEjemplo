@@ -36,3 +36,6 @@ btnArrowQues.forEach((btn,index)=>{
     console.log(btn)
     console.log(index)
 })
+
+
+
